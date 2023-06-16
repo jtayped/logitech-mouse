@@ -9,16 +9,17 @@ import { section1 } from "../constants/Home";
 
 const Section1 = () => {
   return (
-    <section className="w-full h-screen flex justify-center gap-10">
+    <section className="w-full flex justify-center gap-10">
       <img
-        className="aspect-portrait object-cover h-[500px] object-[35%]"
+        className="md:aspect-portrait object-cover h-[400px] w-[100px] md:w-[300px] object-[35%]"
         src={MouseRealLife1}
         alt="Real Life Use Case"
       />
-      <div className="mt-10 max-w-[500px]">
-        <h2 className="ml-[-70px] text-7xl font-bold">{section1.title}</h2>
-        <p className="mt-3">{section1.text}</p>
-        <button></button>
+      <div className="mt-10 max-w-[500px] pr-5">
+        <h2 className="ml-[-70px] text-3xl sm:text-5xl lg:text-7xl font-bold">
+          {section1.title}
+        </h2>
+        <p className="mt-3 text-sm md:text-md">{section1.text}</p>
       </div>
     </section>
   );
