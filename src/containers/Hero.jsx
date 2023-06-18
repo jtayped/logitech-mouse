@@ -50,11 +50,11 @@ const Hero = () => {
         </a>
       </div>
       <div className="relative">
-        <p className="absolute top-1/2 -translate-y-1/2 translate-x-20 md:rotate-90 text-6xl md:text-9xl font-extrabold text-primary-button/20 hidden md:flex">
+        <p className="absolute left-1/2 md:left-auto md:top-1/2 translate-y-[115px] md:-translate-y-1/2 -translate-x-1/2 md:translate-x-20 md:rotate-90 text-6xl md:text-9xl font-extrabold text-primary-button/20">
           Modern
         </p>
         <img
-          className="w-full min-w-[200px] md:h-[200px] md:rotate-90 transform -scale-x-100 md:scale-x-100"
+          className="min-w-[300px] w-[300px] md:h-[200px] md:rotate-90 transform -scale-x-100 md:scale-x-100"
           src={HeroIMG}
           alt="Logitech Mouse"
         />
