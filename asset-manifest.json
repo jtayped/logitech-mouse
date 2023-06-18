@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d25dead2.css",
+    "main.js": "/static/js/main.927d4383.js",
+    "static/media/mouseProfile.webp": "/static/media/mouseProfile.7da8c31e71a4f8a87b11.webp",
+    "static/media/mouseRealLife1.webp": "/static/media/mouseRealLife1.0425453c1a6f3e1411e8.webp",
+    "static/media/logitechLogo.webp": "/static/media/logitechLogo.97b0dd5ff03096b0e6d4.webp",
+    "index.html": "/index.html",
+    "main.d25dead2.css.map": "/static/css/main.d25dead2.css.map",
+    "main.927d4383.js.map": "/static/js/main.927d4383.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d25dead2.css",
+    "static/js/main.927d4383.js"
+  ]
+}
