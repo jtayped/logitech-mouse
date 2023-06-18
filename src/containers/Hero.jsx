@@ -50,7 +50,7 @@ const Hero = () => {
         </a>
       </div>
       <div className="relative">
-        <p className="absolute left-1/2 md:left-auto md:top-1/2 translate-y-[115px] md:-translate-y-1/2 -translate-x-1/2 md:translate-x-20 md:rotate-90 text-6xl md:text-9xl font-extrabold text-primary-button/20">
+        <p className="absolute left-1/2 md:left-auto md:top-1/2 translate-y-[115px] md:-translate-y-1/2 -translate-x-1/2 md:translate-x-20 md:rotate-90 text-6xl md:text-9xl font-extrabold text-primary-button/20 hidden md:flex">
           Modern
         </p>
         <img
