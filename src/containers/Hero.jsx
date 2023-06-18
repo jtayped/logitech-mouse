@@ -37,16 +37,17 @@ const Hero = () => {
           </h1>
           <p className="text-sm mt-1 hidden md:flex">{hero.text}</p>
         </motion.div>
-
-        <motion.button
-          initial={{ x: 10, opacity: 0 }}
-          animate={{ x: 0, opacity: 1 }}
-          transition={{ duration: animationDuration }}
-          className="hidden md:flex items-center gap-1 bg-accent hover:bg-accent/90 px-3 py-1 rounded text-white mt-2"
-        >
-          <BiCart size={20} />
-          {hero.button}
-        </motion.button>
+        <a href={hero.buttonLink}>
+          <motion.button
+            initial={{ x: 10, opacity: 0 }}
+            animate={{ x: 0, opacity: 1 }}
+            transition={{ duration: animationDuration }}
+            className="hidden md:flex items-center gap-1 bg-accent hover:bg-accent/90 px-3 py-1 rounded text-white mt-2"
+          >
+            <BiCart size={20} />
+            {hero.button}
+          </motion.button>
+        </a>
       </div>
       <div className="relative">
         <p className="absolute top-1/2 -translate-y-1/2 translate-x-20 md:rotate-90 text-6xl md:text-9xl font-extrabold text-primary-button/20 hidden md:flex">
