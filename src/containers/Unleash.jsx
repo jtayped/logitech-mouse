@@ -11,6 +11,9 @@ import { section1 } from "../constants/Home";
 // Animations
 import { motion } from "framer-motion";
 
+// Icons
+import { BsArrowRight } from "react-icons/bs";
+
 const Section1 = () => {
   const { ref, inView } = useInView({
     threshold: 0.6,
@@ -45,6 +48,15 @@ const Section1 = () => {
         >
           {section1.text}
         </motion.p>
+        <motion.a
+          initial={{ opacity: 0, y: 10 }}
+          animate={inView ? { opacity: 1, y: 0 } : {}}
+          transition={{ type: "tween", duration: 0.13, delay: 0.4 }}
+          href="https://joeltaylor.business"
+          className="flex items-center gap-1 hover:gap-2 font-bold hover:underline mt-2 transition-all duration-200"
+        >
+          Visit My Portfolio <BsArrowRight />
+        </motion.a>
       </div>
     </section>
   );
