@@ -1,4 +1,4 @@
-import { Hero, Header, Section1 } from "./containers";
+import { Hero, Header, Unleash } from "./containers";
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
         <Header />
         <Hero />
       </header>
-      <Section1 />
+      <Unleash />
     </div>
   );
 }
