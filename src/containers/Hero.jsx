@@ -54,7 +54,7 @@ const Hero = () => {
           Modern
         </p>
         <img
-          className="min-w-[300px] w-[300px] md:h-[200px] md:rotate-90 transform -scale-x-100 md:scale-x-100"
+          className="min-w-[300px] w-[300px] md:w-auto md:h-[200px] md:rotate-90 transform -scale-x-100 md:scale-x-100"
           src={HeroIMG}
           alt="Logitech Mouse"
         />
