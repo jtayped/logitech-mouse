@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/logitech-mouse/static/css/main.d25dead2.css",
-    "main.js": "/logitech-mouse/static/js/main.da15e6cb.js",
+    "main.css": "/logitech-mouse/static/css/main.a1a79ebf.css",
+    "main.js": "/logitech-mouse/static/js/main.8959fe78.js",
     "static/media/mouseProfile.webp": "/logitech-mouse/static/media/mouseProfile.7da8c31e71a4f8a87b11.webp",
     "static/media/mouseRealLife1.webp": "/logitech-mouse/static/media/mouseRealLife1.0425453c1a6f3e1411e8.webp",
     "static/media/logitechLogo.webp": "/logitech-mouse/static/media/logitechLogo.97b0dd5ff03096b0e6d4.webp",
     "index.html": "/logitech-mouse/index.html",
-    "main.d25dead2.css.map": "/logitech-mouse/static/css/main.d25dead2.css.map",
-    "main.da15e6cb.js.map": "/logitech-mouse/static/js/main.da15e6cb.js.map"
+    "main.a1a79ebf.css.map": "/logitech-mouse/static/css/main.a1a79ebf.css.map",
+    "main.8959fe78.js.map": "/logitech-mouse/static/js/main.8959fe78.js.map"
   },
   "entrypoints": [
-    "static/css/main.d25dead2.css",
-    "static/js/main.da15e6cb.js"
+    "static/css/main.a1a79ebf.css",
+    "static/js/main.8959fe78.js"
   ]
 }
