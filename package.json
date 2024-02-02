@@ -1,6 +1,6 @@
 {
   "name": "logitech-mouse",
-  "homepage": "/logitech-mouse",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
