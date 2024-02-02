@@ -1,6 +1,6 @@
 {
   "name": "logitech-mouse",
-  "homepage": "https://jtayped.github.io/logitech-mouse",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
