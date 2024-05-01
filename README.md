@@ -1,1 +1,1 @@
-![logitech](https://github.com/jtayped/logitech-mouse/assets/87146558/fbaeba25-0fb1-455b-8a23-0d2fbc7d3714)
+![logitech](https://github.com/jtayped/logitech-mouse/assets/87146558/bdbf8340-7124-47b0-99ff-d3bd0b902d24)
